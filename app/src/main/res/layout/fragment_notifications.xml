@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDADA"
+    android:orientation="vertical"
+    tools:context=".ui.notifications.MusicFragment">
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF8076"
+        android:text="@string/play"
+        android:textColor="#323433"
+        android:textSize="24sp"
+        app:backgroundTint="#FF8076" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FDC675"
+        android:text="@string/pause"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#FDC675" />
+
+    <Button
+        android:id="@+id/button_pause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF282"
+        android:text="@string/stop"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#FFF282" />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#77FF7C"
+        android:text="@string/next"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#77FF7C"
+        app:iconTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_prev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00CFBB"
+        android:text="@string/prev"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#00CFBB" />
+
+    <TextView
+        android:id="@+id/textView_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/MusicName"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_mn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/musicnumber"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
